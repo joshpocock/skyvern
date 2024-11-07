@@ -60,7 +60,7 @@ services:
     restart: on-failure
     ports:
       - 8083:8080
-      - 9090:9090
+      - 9093:9090
     volumes:
       - ./artifacts:/data/artifacts
       - ./videos:/data/videos
